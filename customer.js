@@ -71,7 +71,7 @@ function purchase() {
 						connection.end();
 					})
 				} else {
-					console.log('Insufficient inventory.');
+					console.log('Insufficient inventory. Only ' + productData.quantity + ' available');
 					console.log('Please modify your order.');
 					console.log("\n---------------------------------------------------------------------\n");
 
