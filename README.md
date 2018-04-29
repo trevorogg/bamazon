@@ -12,3 +12,7 @@ The database is updated based on the order, in this example 10 toothpaste are or
 
 ![alt text](photos/after_order.png "Successful order")
 
+If the user places an order that exceeds the quantity available in the database, the order fails and the available quantity is displayed:
+
+![alt text](photos/order_failed.png "Failed order")
+
